@@ -1,7 +1,7 @@
 # rp_pico_template
 Template for developing Raspberry Pi Pico in Rust.
 
-## How to use.
+## How to use
 
 1. Clone this repository.
 
@@ -19,3 +19,13 @@ name = "rp_pico_template" -> "your project name"
 ```
 
 4. Continue to write your code in `lib.rs` or bin files.
+
+## How to use blinky example
+
+1. Connect your `Raspberry Pi Pico` to your computer with pushing the white button (`BOOTSEL`) on board.
+
+2. Run `led.rs`
+
+```shell
+cargo run --release --bin led
+```
