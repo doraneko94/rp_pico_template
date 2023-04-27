@@ -1,5 +1,5 @@
 [package]
-name = "rp_pico_template"
+name = "rp_bno055"
 version = "0.1.0"
 edition = "2021"
 
@@ -22,3 +22,7 @@ panic-halt = "0.2.0"
 [[bin]]
 name = "led"
 path = "src/led.rs"
+
+[[bin]]
+name = "led_timer"
+path = "src/led_timer.rs"
